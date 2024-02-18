@@ -1,0 +1,16 @@
+---
+name: nixamples
+
+path: .
+
+windows:
+  - name: code
+    panes:
+      - commands:
+          - xvim
+
+  - name: misc
+    panes:
+      - flex: 1
+      - flex: 1
+
