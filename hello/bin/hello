@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+main() {
+  local subject="${1:-foo}"
+  
+	echo "hello $subject"
+}
+
+main "$1"
