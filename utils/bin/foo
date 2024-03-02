@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+_hello() {
+	echo "hello $1"
+}
+
+main() {
+	local action="$1"
+	case $action in
+	hello)
+		_hello "$2"
+		;;
+	esac
+}
+
+main "$@"
